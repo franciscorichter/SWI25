@@ -246,3 +246,5 @@ List mcem_multi_dye_cpp(NumericVector N_obs, int K, int Tsteps, NumericVector q_
   return List::create(Named("q_hat") = q_curr,
                       Named("history") = historyList);
 }
+
+
